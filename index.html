@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card col-lg-7 col-md-10 col-12 mx-auto px-10 py-xl-5">
+            <p class="text-center"> تسجيل الدخول</p>
+            <form onsubmit="return false;">
+                <div class="form-group d-flex px-3 py-1 m-0">
+                    <i class="fas fa-user my-auto"></i>
+                    <input type="text" autocomplete="off" class="form-control" id="username" aria-describedby="emailHelp" placeholder="اسم المستخدم" required>
+                </div>
+                <p><small id="user_error_msg" class="text-danger"></small></p>
+                <div class="form-group d-flex px-3 py-1 m-0">
+                    <i class="fas fa-unlock-alt my-auto"></i>
+                    <input type="password" autocomplete="off" class="form-control" id="password" placeholder="الرقم السري " required>
+                </div>
+                <p><small id="password_error_msg" class="text-danger"></small></p>
+                <div class="text-center pt-4">
+                    <button type="submit" id="submit_btn" class="btn btn-primary col-4">تسجيل</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
